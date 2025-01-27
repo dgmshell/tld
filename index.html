@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<style>
+    table{
+        border: 1px;
+    }
+</style>
+<table id="unique-time-table" border="1">
+    <thead>
+    <tr>
+        <th colspan="4">Insurance RVM </th>
+        <th colspan="5">Processed Data</th>
+    </tr>
+        <tr>
+            <th>Date Modified</th>
+            <th>Converted</th>
+            <th>New</th>
+            <th>Total</th>
+            <th>Total Calls</th>
+            <th>Taken Calls</th>
+            <th>Missed Calls</th>
+            <th>Billable Calls</th>
+            <th>Deal Closed</th>
+            <th>Clipboard</th>
+        </tr>
+    <tr>
+
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+<!--<button id="load-local-storage">Cargar desde LocalStorage</button>-->
+
+<button id="upload-cpa">Upload Files</button>
+<input type="file" id="file-input" style="display:none" accept=".csv"/>
+<table id="unique-time-table-2" border="1">
+    <thead>
+    <tr>
+        <th colspan="4">Insurance RVM </th>
+        <th colspan="5">Processed Data</th>
+    </tr>
+    <tr>
+        <th>Date Modified</th>
+        <th>Converted</th>
+        <th>New</th>
+        <th>Total</th>
+        <th>Total Calls</th>
+        <th>Taken Calls</th>
+        <th>Missed Calls</th>
+        <th>Clipboard</th>
+    </tr>
+    <tr>
+
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+<button id="upload-cpa-2">Upload Files</button>
+<input type="file" id="file-input-2" style="display:none" accept=".csv"/>
+
+<div class="cpa-buffer" style="display: flex">
+    <table id="unique-time-table-3" border="1">
+        <thead>
+        <tr>
+            <th colspan="4">Insurance RVM </th>
+            <th colspan="5">Processed Data</th>
+        </tr>
+        <tr>
+            <th>Date Modified</th>
+            <th>Converted</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <table id="unique-time-table-4" border="1">
+        <thead>
+        <tr>
+            <th colspan="4">Insurance RVM </th>
+            <th colspan="5">Processed Data</th>
+        </tr>
+        <tr>
+            <th>Date Modified</th>
+            <th>Converted</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+<button id="upload-cpa-3">Upload Files</button>
+<input type="file" id="file-input-3" style="display:none" accept=".csv"/>
+<h1>Buffer</h1>
+<button id="upload-buffer-4">Upload Files</button>
+<input type="file" id="file-input-4" style="display:none" accept=".csv"/>
+<script src="app.js"></script>
+<script src="general.js"></script>
+<script src="cpa.js"></script>
+<script src="buffer.js"></script>
+</body>
+</html>
